@@ -1,0 +1,461 @@
+[10:28:22.119] Compiling 61 files with Solc 0.8.19
+[10:28:22.120] Compiling 201 files with Solc 0.8.15
+[10:28:22.120] Compiling 1 files with Solc 0.5.17
+[10:28:22.147] Solc 0.5.17 finished in 27.90ms
+[10:28:23.797] Solc 0.8.19 finished in 1.68s
+[10:28:41.145] Solc 0.8.15 finished in 19.03s
+[10:28:42.037] Compiler run successful!
+[10:28:42.908] EIP-3855 is not supported in one or more of the RPCs used.
+[10:28:42.908] Unsupported Chain IDs: 31337.
+[10:28:42.908] Contracts deployed with a Solidity version equal or higher than 0.8.20 might not work properly.
+[10:28:42.908] For more information, please see https://eips.ethereum.org/EIPS/eip-3855
+[10:28:42.908] Script ran successfully.
+[10:28:42.908] 
+[10:28:42.908] == Logs ==
+[10:28:42.908]   Connected to network with chainid 31337
+[10:28:42.908]   Storing temp deployment data in /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/deployments/hardhat/.deploy
+[10:28:42.908]   DeployConfig: reading file /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/deploy-config/hardhat.json
+[10:28:42.908]   Deploying from Deploy
+[10:28:42.908]   Deployment context: hardhat
+[10:28:42.908]   Deploying a fresh OP Stack including SuperchainConfig
+[10:28:42.908]   Deploying Safe
+[10:28:42.908]   New SystemOwnerSafe deployed at 0xF2CA1eB6e3A93f061730c49536B32DDe5d02F405
+[10:28:42.908]   Setting up Superchain
+[10:28:42.908]   Deploying AddressManager
+[10:28:42.908]   AddressManager deployed at 0xF1192Ce0eE305AAF0bbf8778e4A5BeBC0fCfAc25
+[10:28:42.908]   Deploying ProxyAdmin
+[10:28:42.908]   ProxyAdmin deployed at 0x7a003948Dc529D3966Af9C25dbEe18BD363EBdeD
+[10:28:42.908]   ProxyAdmin ownership transferred to Safe at: 0xF2CA1eB6e3A93f061730c49536B32DDe5d02F405
+[10:28:42.908]   Deploying ERC1967 proxy forSuperchainConfigProxy
+[10:28:42.908]      at 0xbd2848aa7bA125Bed31ce0b2b05B8359266CB12b
+[10:28:42.908]   SuperchainConfig deployed at 0x068E44eB31e111028c41598E4535be7468674D0A
+[10:28:42.908]   Running chain assertions on the SuperchainConfig
+[10:28:42.908]   Deploying ERC1967 proxy forProtocolVersionsProxy
+[10:28:42.908]      at 0xB2eE1CD72F8E6d33538bA562B1141C89f286EA4C
+[10:28:42.908]   Deploying ProtocolVersions implementation
+[10:28:42.908]   ProtocolVersions deployed at 0xfbfD64a6C0257F613feFCe050Aa30ecC3E3d7C3F
+[10:28:42.908]   Running chain assertions on the ProtocolVersions
+[10:28:42.908]   Upgrading and initializing ProtocolVersions proxy
+[10:28:42.908]   ProtocolVersions version: 1.0.0
+[10:28:42.908]   Running chain assertions on the ProtocolVersions
+[10:28:42.908]   Deploying OP Chain
+[10:28:42.908]   Deploying proxies
+[10:28:42.908]   Deploying ERC1967 proxy forOptimismPortalProxy
+[10:28:42.908]      at 0xEE915F299A6d1eFf68c6EA22E5f93cFD551936F3
+[10:28:42.908]   Deploying ERC1967 proxy forL2OutputOracleProxy
+[10:28:42.908]      at 0x94160CaFc1bA404Da309Ce37D5be3d317fA72e95
+[10:28:42.908]   Deploying ERC1967 proxy forSystemConfigProxy
+[10:28:42.908]      at 0x459242AF21390cDA6837Fc261274FBe40A33FAc3
+[10:28:42.908]   Deploying proxy for L1StandardBridge
+[10:28:42.908]   L1StandardBridgeProxy deployed at 0x3116f638C14d6c7ee2943fcad8aF157169548544
+[10:28:42.908]   Deploying proxy for L1CrossDomainMessenger
+[10:28:42.908]   L1CrossDomainMessengerProxy deployed at 0x8D10aA72F538672330060F1Da503804B7A91441D
+[10:28:42.908]   Deploying ERC1967 proxy forOptimismMintableERC20FactoryProxy
+[10:28:42.908]      at 0xe9F0fb1DD35f7833C42ea605E178dfa59559ae39
+[10:28:42.908]   Deploying ERC1967 proxy forL1ERC721BridgeProxy
+[10:28:42.908]      at 0x3180c679372197e4487f3152e51D646d1e1BdAD2
+[10:28:42.908]   Deploying ERC1967 proxy forDisputeGameFactoryProxy
+[10:28:42.908]      at 0x13E263172E8973450DE0112D56694079dBdb0d95
+[10:28:42.908]   Transferring AddressManager ownership to ProxyAdmin
+[10:28:42.908]   AddressManager ownership transferred to 0x7a003948Dc529D3966Af9C25dbEe18BD363EBdeD
+[10:28:42.908]   Deploying implementations
+[10:28:42.908]   Deploying OptimismPortal implementation
+[10:28:42.908]   OptimismPortal deployed at 0x47Dd714d6062BDc1433825Bb932f3e4a4FffCa13
+[10:28:42.908]   Running chain assertions on the OptimismPortal
+[10:28:42.908]   Guardian has no code: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+[10:28:42.908]   Deploying L1CrossDomainMessenger implementation
+[10:28:42.908]   L1CrossDomainMessenger deployed at 0xEf4e79b1151e3a8c70d6e47a989C554A1D8B9257
+[10:28:42.908]   Running chain assertions on the L1CrossDomainMessenger
+[10:28:42.908]   Deploying L2OutputOracle implementation
+[10:28:42.908]   L2OutputOracle deployed at 0x1B9F0e648A0A4780120A6Cd07B952F76560c8F8b
+[10:28:42.908]   Running chain assertions on the L2OutputOracle
+[10:28:42.908]   Deploying OptimismMintableERC20Factory implementation
+[10:28:42.908]   OptimismMintableERC20Factory deployed at 0xAd25F10eeC67Cc91Ce492680Bc71A6b92D069ed0
+[10:28:42.908]   Running chain assertions on the OptimismMintableERC20Factory
+[10:28:42.908]   Deploying SystemConfig implementation
+[10:28:42.908]   SystemConfig deployed at 0xdb69326a379d4Ba190bCcC217708083d0E3784f9
+[10:28:42.908]   Running chain assertions on the SystemConfig
+[10:28:42.908]   Deploying L1StandardBridge implementation
+[10:28:42.908]   L1StandardBridge deployed at 0x79bF592eB4C0e5E90e6015D194204264C89928eE
+[10:28:42.908]   Running chain assertions on the L1StandardBridge
+[10:28:42.908]   Deploying L1ERC721Bridge implementation
+[10:28:42.908]   L1ERC721Bridge deployed at 0x14B97665a2C51d18AD76517e2aC7a995BEEFbCfC
+[10:28:42.908]   Running chain assertions on the L1ERC721Bridge
+[10:28:42.908]   Initializing implementations
+[10:28:42.908]   Upgrading and initializing SystemConfig proxy
+[10:28:42.908]   SystemConfig version: 1.11.0
+[10:28:42.908]   Running chain assertions on the SystemConfig
+[10:28:42.908]   Upgrading and initializing L1StandardBridge proxy
+[10:28:42.908]   L1StandardBridge version: 2.0.0
+[10:28:42.908]   Running chain assertions on the L1StandardBridge
+[10:28:42.908]   Upgrading and initializing L1ERC721Bridge proxy
+[10:28:42.908]   L1ERC721Bridge version: 2.0.0
+[10:28:42.908]   Running chain assertions on the L1ERC721Bridge
+[10:28:42.908]   Upgrading and initializing OptimismMintableERC20Factory proxy
+[10:28:42.908]   OptimismMintableERC20Factory version: 1.8.0
+[10:28:42.908]   Running chain assertions on the OptimismMintableERC20Factory
+[10:28:42.908]   Upgrading and initializing L1CrossDomainMessenger proxy
+[10:28:42.908]   L1CrossDomainMessenger version: 2.1.1
+[10:28:42.908]   Running chain assertions on the L1CrossDomainMessenger
+[10:28:42.908]   Upgrading and initializing L2OutputOracle proxy
+[10:28:42.908]   L2OutputOracle version: 1.7.0
+[10:28:42.908]   Running chain assertions on the L2OutputOracle
+[10:28:42.908]   Upgrading and initializing OptimismPortal proxy
+[10:28:42.909]   OptimismPortal version: 2.3.0
+[10:28:42.909]   Running chain assertions on the OptimismPortal
+[10:28:42.909]   Guardian has no code: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+[10:28:42.909] 
+[10:28:42.909] ## Setting up 1 EVM.
+[10:28:42.926] 
+[10:28:42.926] ==========================
+[10:28:42.926] 
+[10:28:42.926] Chain 31337
+[10:28:42.926] 
+[10:28:42.926] Estimated gas price: 1.149728776 gwei
+[10:28:42.926] 
+[10:28:42.926] Estimated total gas used for script: 40158550
+[10:28:42.926] 
+[10:28:42.926] Estimated amount required: 0.0461714405374348 ETH
+[10:28:42.926] 
+[10:28:42.926] ==========================
+[10:28:42.928] ##
+[10:28:42.928] Sending transactions [0 - 40].
+[10:28:42.975] ##
+[10:28:42.975] Waiting for receipts.
+[10:28:43.229] 
+[10:28:43.229] ##### anvil-hardhat
+[10:28:43.229] ✅  [Success]Hash: 0xf91bee1f64cf45ebcb588f517c1af37c20f6ab8eba4b03160c74f08ba2ef7932
+[10:28:43.229] Contract Address: 0x3166d98cd394A845CD88612de10F043dDc02D5A1
+[10:28:43.229] Block: 21
+[10:28:43.229] Paid: 0.000597428070644295 ETH (552915 gas * 1.080506173 gwei)
+[10:28:43.229] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xcf128f3a297b78d1c0964269ea568365a09e343e42abc017699df79077ab2ccb
+[10:28:43.230] Contract Address: 0x476E120008B14Cb92cff7101B32977155918AC87
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.003987764704851585 ETH (3690645 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x9843f72a952b96255668a9fea4f9dcd4b8ee4dfc1e5fde568ca74f885ad0503e
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.00024398909892513 ETH (225810 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xa581b373bcea8a853450b77df2f74effc5ba01ff9f81abaa4f67b7a773705734
+[10:28:43.230] Contract Address: 0xF1192Ce0eE305AAF0bbf8778e4A5BeBC0fCfAc25
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000437362966682248 ETH (404776 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xd61d5da64ffea8a0ef92bedaf6071d957ef6d3b23b0a5695e17749f4fc707613
+[10:28:43.230] Contract Address: 0x7a003948Dc529D3966Af9C25dbEe18BD363EBdeD
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.001603429020991253 ETH (1483961 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x8aae477e3b3bb5e2c2b27f0ffa8aeb7f5e7b379252c406e6689cbed2acdd158d
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000049740021167882 ETH (46034 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xb7a3e7a7a88dc231a6cd97dc4f4f88096033c269c08f5a26bf4b36563f8f8a4b
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000030861417313226 ETH (28562 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xfcc7aba048a670017f30deea175283635fcd30e162ab3ef6edff1beb8ae75fe5
+[10:28:43.230] Contract Address: 0xbd2848aa7bA125Bed31ce0b2b05B8359266CB12b
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x35800a84beb8bcdd309f3219f807d367c5634192e154450cca82814ae722a626
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000664082335444319 ETH (614603 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x5a22e9c72b4c951d0b92881b754fe31346f5b27242feb19b4058d0b92ff90d63
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000167249389506324 ETH (154788 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x460f22864882c465a347257bda0451b7f151cf7c4a2a717ad2ecef1f18773b70
+[10:28:43.230] Contract Address: 0xB2eE1CD72F8E6d33538bA562B1141C89f286EA4C
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xbab947686074e3b52de1c35c44c002a6aad1d91b26a988c12e7915de96ff1559
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000748316435679053 ETH (692561 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x1ba9cd89b86f54394fff08f87630b7e64eff09e28119412c55ff86fb6fc6e01d
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000161550799949922 ETH (149514 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xaa26ccbf0416eb1653039b48510732c8812b7360fe562a2bad9367bbafbf2daa
+[10:28:43.230] Contract Address: 0xEE915F299A6d1eFf68c6EA22E5f93cFD551936F3
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x304ff409c692fcf308ba205c8b322fe6b2d2adb487e53cc103932c04f91f8c1b
+[10:28:43.230] Contract Address: 0x94160CaFc1bA404Da309Ce37D5be3d317fA72e95
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x5d186909f940aedea63a47df91e2d53f24140d14075e0162a4a5409e00f2920e
+[10:28:43.230] Contract Address: 0x459242AF21390cDA6837Fc261274FBe40A33FAc3
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x13a940d15ffef55d198064d73331157cf6fb0e4494b92f0718aa343f3e9922e5
+[10:28:43.230] Contract Address: 0x3116f638C14d6c7ee2943fcad8aF157169548544
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000658181691233566 ETH (609142 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x445f3c3b55086c548c6a07ed3070113e754f2e4dc47f0d32f45116b69baf2e50
+[10:28:43.230] Contract Address: 0x8D10aA72F538672330060F1Da503804B7A91441D
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000304925325057638 ETH (282206 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x715ca6b5f8bc42cfb1f461c6447e8a46d6d544d7e005ef77bf0e86c520d1a91c
+[10:28:43.230] Contract Address: 0xe9F0fb1DD35f7833C42ea605E178dfa59559ae39
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x3af71818d84de8351ab0b4c182e12f2c44e625224c9d38bafb4ac419f294033a
+[10:28:43.230] Contract Address: 0x3180c679372197e4487f3152e51D646d1e1BdAD2
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x517cf1b12cc089e5312a33b0416bea5191a3689cbd07839c00678e20939b8424
+[10:28:43.230] Contract Address: 0x13E263172E8973450DE0112D56694079dBdb0d95
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000567123114010164 ETH (524868 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x8053cfda788305f78ec9c030a347fe6b7389d602f42ccb73d85932aff6b2cf77
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000030831163140382 ETH (28534 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x13e661c9a8119f71c66c69d47830adfd0ad32ad826d38c7eb2c372312fb1a53c
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.005134007792910732 ETH (4751484 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x323b41e58378209989566698acf857b5dd6376521cc79ccbf5d49aed8a0b7635
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.001979095085195201 ETH (1831637 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xc3a7cc2211250a587d4d18100aba8d26c40f4bdb2f9c010a323855acccc63754
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.00136797484032665 ETH (1266050 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xdda7a7e1f077a706be8c73e8dd89cff6ff795df1d9ae91479577b2d8d9266728
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.00188370043669955 ETH (1743350 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xc6abd3cbf3a2a4f7d451bda5cdc5cbb05309cc6330fc24b1e7e652ffe54da8d1
+[10:28:43.230] Contract Address: 0xdb69326a379d4Ba190bCcC217708083d0E3784f9
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.00148367544133149 ETH (1373130 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x7294c383e68c43fce07aff678e6316cfb1b8b51a4aaa33a957f9ff2c51c37baa
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.002736892962542329 ETH (2532973 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xc57c0b954c92483932c7deae86fa73af41034d084668bae1e79753a530d66040
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.001250503289704263 ETH (1157331 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x43f7cc97eb485856168398ef5760ce8f97fe3f3fab4b51f8e39b0f76f2a2aa87
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000312153911355008 ETH (288896 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x9df5270be238874af244572607858a72163bb6ae31713562de6db9e703e849b0
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000080312943332917 ETH (74329 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x46d0f51a91c271c1de8a20557c803ccc8e08abe300e7508020334b938f0f1b4d
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000148037989750384 ETH (137008 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xd8fb02e86be97c6e6d0584239b82ba77e1c28d21d698f8618b6fcbd65346fcbd
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000145921278157477 ETH (135049 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x38abf85cdd99bbd8ad7eccb00615eeec585cb8ff68d73c0a1f801d8fd5cb7ebf
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000089879744988659 ETH (83183 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xfa9eaa5fb6ccad605198ce09ca1b472e93a8bcfde3b2040e071fbb6115ccaceb
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000080312943332917 ETH (74329 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xb9694c0ca3b83ec70292c77197af0e388f8329d804824ddd9da34450467b1df7
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000081734889456585 ETH (75645 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0x8cce980693752b0838f76b035b86ab8b70fc803ce424a71dde801b3f2ae78736
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000186684454040075 ETH (172775 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.230] 
+[10:28:43.230] ##### anvil-hardhat
+[10:28:43.230] ✅  [Success]Hash: 0xd7750716ef2f8ec3f88dba030a644e2628f37b09ce564034231d35f95ff3d2cc
+[10:28:43.230] Block: 21
+[10:28:43.230] Paid: 0.000022759782028072 ETH (21064 gas * 1.080506173 gwei)
+[10:28:43.230] 
+[10:28:43.231] 
+[10:28:43.231] ##### anvil-hardhat
+[10:28:43.231] ✅  [Success]Hash: 0x0e346eb4c17e2aeae7b553a52a0cb986cf424b3cfb7a9df40e4522301546db09
+[10:28:43.231] Block: 21
+[10:28:43.231] Paid: 0.000169816672173372 ETH (157164 gas * 1.080506173 gwei)
+[10:28:43.231] 
+[10:28:43.231] 
+[10:28:43.231] ##### anvil-hardhat
+[10:28:43.231] ✅  [Success]Hash: 0x28ba4cb2e6fe356a84664d7ac53a1b7e57aa2fcbdfc4e3b23bac09a325034960
+[10:28:43.231] Block: 21
+[10:28:43.231] Paid: 0.000022759782028072 ETH (21064 gas * 1.080506173 gwei)
+[10:28:43.231] 
+[10:28:43.231] 
+[10:28:43.231] ##### anvil-hardhat
+[10:28:43.231] ✅  [Success]Hash: 0x01eb78c9df1afc311d9f4389540aa452c4f12755e4eef2d3e5ba755d8a0fefaf
+[10:28:43.231] Block: 21
+[10:28:43.231] Paid: 0.000194042701078205 ETH (179585 gas * 1.080506173 gwei)
+[10:28:43.231] 
+[10:28:43.231] 
+[10:28:43.231] 
+[10:28:43.231] ==========================
+[10:28:43.231] 
+[10:28:43.231] ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+[10:28:43.231] Total Paid: 0.031592964293100093 ETH (29239041 gas * avg 1.080506173 gwei)
+[10:28:43.386] 
+[10:28:43.386] Transactions saved to: /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/broadcast/Deploy.s.sol/31337/run-latest.json
+[10:28:43.386] 
+[10:28:43.386] Sensitive values saved to: /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/cache/Deploy.s.sol/31337/run-latest.json
+[10:28:43.386] 
+
+turn] 
+[09:49:41.837]     ├─ [0] console::log("ProxyAdmin deployed at %s", ProxyAdmin: [0xb693e7256b83b735cfC7304E9A25Bbe560Ec2709]) [staticcall]
+[09:49:41.837]     │   └─ ← [Stop] 
+[09:49:41.837]     ├─ [0] VM::stopBroadcast()
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] VM::startBroadcast(0xE2a7d53799A620A7d66A14FA73f7B701509B597E)
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [363] ProxyAdmin::owner() [staticcall]
+[09:49:41.837]     │   └─ ← [Return] 0xE2a7d53799A620A7d66A14FA73f7B701509B597E
+[09:49:41.837]     ├─ [2330] ProxyAdmin::transferOwnership(SafeProxy: [0x665280602118b1cc09bA66b7547729267Ecc57A8])
+[09:49:41.837]     │   ├─ emit OwnershipTransferred(previousOwner: 0xE2a7d53799A620A7d66A14FA73f7B701509B597E, newOwner: SafeProxy: [0x665280602118b1cc09bA66b7547729267Ecc57A8])
+[09:49:41.837]     │   └─ ← [Stop] 
+[09:49:41.837]     ├─ [0] console::log("ProxyAdmin ownership transferred to Safe at: %s", SafeProxy: [0x665280602118b1cc09bA66b7547729267Ecc57A8]) [staticcall]
+[09:49:41.837]     │   └─ ← [Stop] 
+[09:49:41.837]     ├─ [0] VM::stopBroadcast()
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] VM::startBroadcast(0xE2a7d53799A620A7d66A14FA73f7B701509B597E)
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] console::log("Deploying ERC1967 proxy forSuperchainConfigProxy") [staticcall]
+[09:49:41.837]     │   └─ ← [Stop] 
+[09:49:41.837]     ├─ [436020] → new Proxy@0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158
+[09:49:41.837]     │   ├─ emit AdminChanged(previousAdmin: 0x0000000000000000000000000000000000000000, newAdmin: ProxyAdmin: [0xb693e7256b83b735cfC7304E9A25Bbe560Ec2709])
+[09:49:41.837]     │   └─ ← [Return] 2059 bytes of code
+[09:49:41.837]     ├─ [0] VM::load(Proxy: [0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158], 0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103) [staticcall]
+[09:49:41.837]     │   └─ ← [Return] 0x000000000000000000000000b693e7256b83b735cfc7304e9a25bbe560ec2709
+[09:49:41.837]     ├─ [0] VM::serializeAddress("<stringified JSON>", "SuperchainConfigProxy", 0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158)
+[09:49:41.837]     │   └─ ← [Return] "{\"AddressManager\":\"0x70F92049C884A405DE2CfAb82Ee043fef7914f23\",\"ProxyAdmin\":\"0xb693e7256b83b735cfC7304E9A25Bbe560Ec2709\",\"SafeProxyFactory\":\"0xF2E6fb6F019D1ceE7e02Be40Cc749aD40D2fF9D5\",\"SafeSingleton\":\"0xfA67b5705a2cfe9043CeAB9fdF423E3bAd6294bE\",\"SuperchainConfigProxy\":\"0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158\",\"SystemOwnerSafe\":\"0x665280602118b1cc09bA66b7547729267Ecc57A8\"}"
+[09:49:41.837]     ├─ [0] VM::writeJson("<stringified JSON>", "/home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/deployments/hardhat/.deploy")
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] console::log("   at %s", Proxy: [0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158]) [staticcall]
+[09:49:41.837]     │   └─ ← [Stop] 
+[09:49:41.837]     ├─ [0] VM::stopBroadcast()
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] VM::startBroadcast(0xE2a7d53799A620A7d66A14FA73f7B701509B597E)
+[09:49:41.837]     │   └─ ← [Return] 
+[09:49:41.837]     ├─ [0] VM::envOr("IMPL_SALT", "ethers phoenix")
+[09:49:41.837]     │   └─ ← [Return] <env var value>
+[09:49:41.837]     ├─ [8937393460509919272] Create2Deployer::create2()
+[09:49:41.837]     │   ├─ [8937393460509885951] → new <unknown>@0x068E44eB31e111028c41598E4535be7468674D0A
+[09:49:41.838]     │   │   └─ ← [CreateCollision] 0 bytes of code
+[09:49:41.838]     │   └─ ← [Revert] EvmError: Revert
+[09:49:41.838]     └─ ← [Revert] EvmError: Revert
+[09:49:41.838] 
+[09:49:41.838] 
+[09:49:41.838] 
+[09:49:41.838] == Logs ==
+[09:49:41.838]   Connected to network with chainid 31337
+[09:49:41.838]   Storing temp deployment data in /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/deployments/hardhat/.deploy
+[09:49:41.838]   DeployConfig: reading file /home/colin/nm/polymerdao/monomer/e2e/optimism/packages/contracts-bedrock/deploy-config/hardhat.json
+[09:49:41.838]   Deploying from Deploy
+[09:49:41.838]   Deployment context: hardhat
+[09:49:41.838]   Deploying a fresh OP Stack including SuperchainConfig
+[09:49:41.838]   Deploying Safe
+[09:49:41.838]   New SystemOwnerSafe deployed at 0x665280602118b1cc09bA66b7547729267Ecc57A8
+[09:49:41.838]   Setting up Superchain
+[09:49:41.838]   Deploying AddressManager
+[09:49:41.838]   AddressManager deployed at 0x70F92049C884A405DE2CfAb82Ee043fef7914f23
+[09:49:41.838]   Deploying ProxyAdmin
+[09:49:41.838]   ProxyAdmin deployed at 0xb693e7256b83b735cfC7304E9A25Bbe560Ec2709
+[09:49:41.838]   ProxyAdmin ownership transferred to Safe at: 0x665280602118b1cc09bA66b7547729267Ecc57A8
+[09:49:41.838]   Deploying ERC1967 proxy forSuperchainConfigProxy
+[09:49:41.838]      at 0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158
+[09:49:42.015] [stderr]      at 0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158
+[09:49:42.015] [stderr]      at 0x47832dD0e9ea4Cf53b866d985c53DD4CAD964158
