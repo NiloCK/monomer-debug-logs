@@ -1,0 +1,71 @@
+[12:14:18.015] tx sent: 0xdbb2c22dbd1748ebd83776f2518951537901c8bc864affc5fb581a021c4dfe1c                                                                                                                                                                   
+                                                                                                                                                                                                                                                             
+[12:14:19.015] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:20.016] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:21.016] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:22.017] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:23.018] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:24.018] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:25.019] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:26.019] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:27.020] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:28.021] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                         
+                                                                                                                               
+[12:14:29.021] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:30.022] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:31.023] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:32.024] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:33.025] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:34.025] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:35.026] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:36.027] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:37.028] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                               
+[12:14:38.028] waiting for contract [OptimismPortal] to be deployed                                                                                                                                                                                          
+                                                                                                                                                                                                                                                             
+[12:14:38.029] found contract [OptimismPortal]
+
+portal created                                                 
+User nonce:  1                                                 
+[12:14:38.033] deposit tx sent: 0x32b6150a9f4f403e6084494f6dd3b8783a81d33ed338d738b06d9d227154a0fb                                                                                                                                                           
+
+[12:14:39.035] waiting for receipt [depositTx] to be mined
+
+[12:14:39.036] found receipt [depositTx]
+
+[12:14:39.036] deposit receipt:
+
+{                                                              
+  "root": "0x6d1950f9aae042ad2369fd39c8da8b791f3791eb150685d036795ef851af069a",                                                                                                                                                                              
+  "status": "0x0",                                             
+  "cumulativeGasUsed": "0xcb21",
+  "logsBloom": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000",
+  "logs": [],                                                  
+  "transactionHash": "0x32b6150a9f4f403e6084494f6dd3b8783a81d33ed338d738b06d9d227154a0fb",                                                                                                                                                                   
+  "contractAddress": "0x0000000000000000000000000000000000000000",                                                                                                                                                                                           
+  "gasUsed": "0xcb21",                                         
+  "effectiveGasPrice": "0x6fc23ac0",
+  "blobGasPrice": "0x1",                                       
+  "blockHash": "0x33e8cc051fbcbac9043e1e7e5210f90c3bb28a942bf64296fcab366ed67497bb",                                                                                                                                                                         
+  "blockNumber": "0x16",                                       
+  "transactionIndex": "0x0"                                    
+}                                                       
