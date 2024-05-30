@@ -1,0 +1,73 @@
+[13:31:27.029] tx sent: 0x62f7962a21d631b7ca3d9d8673534ba8f43715e78f1ee363c36f7d7d52aab28c
+
+[13:31:28.029] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:29.030] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:30.031] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:31.032] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:32.033] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:33.033] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:34.033] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:35.034] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:36.035] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:37.036] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:38.037] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:39.037] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:40.038] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:41.039] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:42.040] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:43.040] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:44.041] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:45.041] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:46.042] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:47.043] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:48.044] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:49.044] waiting for contract [OptimismPortal] to be deployed
+
+[13:31:49.053] found contract [OptimismPortal]
+
+portal created
+User nonce:  1
+[13:31:49.055] deposit tx sent: 0xb9218ffe4139676e83e77bba296327652f666ae54a3eef4ee58cec21587710a9
+
+[13:31:50.055] waiting for receipt [depositTx] to be mined
+
+[13:31:50.056] found receipt [depositTx]
+
+[13:31:50.056] deposit receipt:
+
+{
+  "root": "0x4c299841733b3decd19e86a35a0d06a1db37059098860711f507c974f60d0c35",
+  "status": "0x0",
+  "cumulativeGasUsed": "0xf0700",
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "logs": [],
+  "transactionHash": "0xb9218ffe4139676e83e77bba296327652f666ae54a3eef4ee58cec21587710a9",
+  "contractAddress": "0x0000000000000000000000000000000000000000",
+  "gasUsed": "0xf0700",
+  "effectiveGasPrice": "0x693d4ca8",
+  "blobGasPrice": "0x1",
+  "blockHash": "0xbcc53c97cae0289afb63a06df8300a48cfa4e682f734f1889849b2507541d1f7",
+  "blockNumber": "0x19",
+  "transactionIndex": "0x0"
+}
